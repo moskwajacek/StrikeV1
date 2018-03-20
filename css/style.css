@@ -149,7 +149,7 @@ footer {
 }
 
 #main-header .header-caption .button {
-    font-size: 6em;
+    font-size: 4.5em;
     margin-top: 15px;
     transition: all 0.5s;
     color: red;
@@ -384,6 +384,11 @@ footer {
 
 #portfolio-item-8 {
     background-image: url(../img/Renegade-1.png);
+    background-size: 90%;
+}
+
+#portfolio-item-9 {
+    background-image: url(../img/mossberg.png);
     background-size: 90%;
 }
 
