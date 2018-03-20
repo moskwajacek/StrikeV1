@@ -3,11 +3,18 @@ $(document).ready(function () {
     smoothScroll();
     hover();
     fixedOff();
+    sticky();
 });
 
 $(window).scroll(function () {
     scrolled();
 });
+
+function sticky() {
+    $("#mainNav").sticky({
+        topSpacing: 0
+    });
+}
 
 
 function scrolled() {
