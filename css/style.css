@@ -108,7 +108,9 @@ footer {
 
 @media (max-width: 768px) {
     #main-header .header-caption img {
-        width: 80%;
+        position: relative;
+        width: 140%;
+        left: -20%;
     }
 }
 
