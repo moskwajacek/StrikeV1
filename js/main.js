@@ -2,6 +2,7 @@ $(document).ready(function () {
     scrolled();
     smoothScroll();
     hover();
+    fixedOff();
 });
 
 $(window).scroll(function () {
@@ -57,3 +58,9 @@ function hover() {
     });
 }
 
+function fixedOff() {
+    if (/iphone|ipod|ipad|blackberry/i.test(navigator.userAgent)) {
+        console.log('apple');
+        $('.carousel-item').css("background-attachment", "scroll");
+    }
+}
