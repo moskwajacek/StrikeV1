@@ -106,7 +106,7 @@ footer {
     width: 60%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #main-header .header-caption img {
         position: relative;
         width: 140%;
