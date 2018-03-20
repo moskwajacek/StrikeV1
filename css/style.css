@@ -68,7 +68,6 @@ footer {
 
 .navbar.scrolled {
     background-color: rgba(32, 66, 49, 0.65);
-    -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
 
@@ -113,9 +112,6 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     filter: grayscale(85%);
 
@@ -172,11 +168,8 @@ footer {
     left: 35%;
     border-radius: 20px;
     margin-bottom: 20px;
-    -webkit-filter: brightness(80%);
     filter: brightness(60%);
 }
-
-#about #punisher {}
 
 #about .text-center a {
     border: 2px solid #555;
@@ -189,7 +182,6 @@ footer {
     padding-top: 7px;
     padding-bottom: 8px;
     text-align: center;
-    -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -214,7 +206,6 @@ footer {
     font-size: 4em;
     padding: 25px;
     padding-bottom: 35px;
-    -webkit-transition: 0.7s;
     transition: 0.7s;
 }
 
@@ -242,7 +233,6 @@ footer {
     border-style: solid;
     border-width: 0px;
     border-radius: 10px;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: none;
     padding: 5px;
@@ -272,7 +262,6 @@ footer {
 #portfolio {
     overflow: hidden;
     width: 100%;
-
 }
 
 #portfolio .portfolio-item {
@@ -280,9 +269,8 @@ footer {
     margin: 0;
     margin-top: 5%;
     background-position: center;
-    /*    border: 2px solid #555;*/
+    border: 2px solid #204231;
     border-radius: 5px;
-    -webkit-filter: brightness(70%);
     filter: brightness(70%);
     background-repeat: no-repeat;
 }
@@ -292,14 +280,9 @@ footer {
     background-color: rgba(26, 38, 47, 0.7);
     position: relative;
     opacity: 0;
-
     transition: all 0.3s;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-
     align-items: center;
-
     justify-content: center;
     border-radius: 5px;
 }
@@ -320,7 +303,6 @@ footer {
     color: #fff;
     position: absolute;
     top: 50%;
-    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 99%;
 }
@@ -328,7 +310,6 @@ footer {
 #portfolio .portfolio-item-content a {
     color: #fff;
     font-size: 2em;
-    -webkit-transition: all 0.3s;
     transition: all 0.3s;
     border: solid;
     border-radius: 5px;
@@ -348,12 +329,10 @@ footer {
 }
 
 #portfolio .portfolio-item-content i {
-    -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
 #portfolio .portfolio-item-content i:hover {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 
@@ -446,7 +425,6 @@ footer {
     text-align: center;
     line-height: 50px;
     margin-right: 10px;
-    -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -473,7 +451,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     float: right;
-    -webkit-transition: all 0.3s;
     transition: all 0.3s;
     margin-bottom: 20px;
 }
@@ -481,7 +458,6 @@ footer {
 #contact input[type="submit"]:hover {
     cursor: pointer;
     color: #ce392f;
-    /*    background-color: #fff;*/
 }
 
 #contact .map-container {
@@ -489,7 +465,6 @@ footer {
     height: 350px;
     z-index: 100;
     margin-bottom: 50px;
-    -webkit-filter: brightness(80%);
     filter: brightness(80%);
 
 }
@@ -513,7 +488,7 @@ footer {
 
 .copyright {
     color: #fff;
-    height: 40px;
+    height: 20px;
     width: 100%;
 }
 
