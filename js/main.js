@@ -1,6 +1,7 @@
 $(document).ready(function () {
     scrolled();
     smoothScroll();
+    hover();
 });
 
 $(window).scroll(function () {
@@ -55,3 +56,4 @@ function hover() {
         $(this).trigger('hover');
     });
 }
+
