@@ -80,6 +80,10 @@ footer {
     margin-right: 10px;
     font-weight: 2000;
     text-transform: uppercase;
+    color: black;
+}
+
+.navbar.navbar-light .nav-link:hover {
     color: #ce392f;
 }
 
@@ -207,7 +211,20 @@ footer {
 }
 
 #skills .row {
-    margin: 5%
+    overflow: hidden;
+}
+
+#skills .skills-main {
+    height: 100px;
+    background-position: center;
+    border: 2px solid #204231;
+    border-radius: 5px;
+    filter: brightness(70%);
+    background-repeat: no-repeat;
+}
+
+#gun {
+    background-image: url(../img/pricelisticon/package.png);
 }
 
 #skills i {
