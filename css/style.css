@@ -1,7 +1,6 @@
 /* General */
 
 * {
-
     box-sizing: border-box;
 }
 
@@ -18,7 +17,6 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: rgba(227, 231, 206, 0.74);
     color: #204231;
-
 }
 
 span {
@@ -132,7 +130,6 @@ footer {
     background-attachment: fixed;
     background-size: cover;
     filter: grayscale(85%);
-
 }
 
 #main-header #carouselExampleIndicators .overlay {
@@ -155,7 +152,6 @@ footer {
 
 #main-header #carouselExampleIndicators .carousel-indicators .active {
     background-color: #ce392f;
-
 }
 
 #main-header .header-caption .button {
@@ -178,7 +174,6 @@ footer {
     position: relative;
     z-index: 100;
 }
-
 
 #about img {
     position: relative;
@@ -210,81 +205,52 @@ footer {
 
 /* About - END*/
 
-/* Skills */
+/* Price */
 
-/*
-#skills {
+#price {
     color: black;
 }
 
-#skills .row {
+#price p {
+    font-size: 30px;
+}
+
+#price .row {
     overflow: hidden;
 }
 
-#skills .skills-main {
-    height: 100px;
+#price .row img {
+    width: 40vh;
+    height: auto;
+}
+
+#price figure p {
+    color: #ce392f;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#price figure {
+    background-size: 80%;
     background-position: center;
     border: 2px solid #204231;
     border-radius: 5px;
-    filter: brightness(70%);
+    filter: brightness(90%);
     background-repeat: no-repeat;
+    background-color: white;
 }
 
-
-#skills i {
-    font-size: 4em;
-    padding: 25px;
-    padding-bottom: 35px;
-    transition: 0.7s;
+#pakiety {
+    background-image: url(../files/pakiety.jpg);
 }
 
-#skills i:hover {
-    cursor: pointer;
-    color: #ce392f;
+#package {
+    background-image: url(../files/package.jpg);
 }
 
-#skills .skills-item p {
-    font-size: 18px;
-    position: relative;
-    text-align: center;
-}
-
-#skills .row .popuptext {
-    position: absolute;
-    width: 240px;
-    height: 75px;
-    top: -60%;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    background-color: #bcbbbb;
-    border-style: solid;
-    border-width: 0px;
-    border-radius: 10px;
-    transform: translate(-50%, -50%);
-    display: none;
-    padding: 5px;
-    color: #ce392f;
-}
-
-#skills .row .popuptext:after {
-    content: "";
-    border-top: 20px solid #bcbbbb;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    bottom: 0px;
-    content: "";
-    position: absolute;
-    top: 98%;
-    left: 40%;
-}
-
-#container .popuptext.showInfo {
-    display: inline-block;
-}
-*/
-
-/* Skills - END */
+/* Price - END */
 
 /* Portfolio */
 
@@ -500,7 +466,6 @@ footer {
     z-index: 100;
     margin-bottom: 50px;
     filter: brightness(80%);
-
 }
 
 #contact .map-container #googleMap {
